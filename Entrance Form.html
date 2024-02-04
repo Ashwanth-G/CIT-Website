@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chennai Institute of Technology - Entrance Form</title>
+    <link rel="stylesheet" type="text/css" href="D:\User\Documents\ADP\Combined\College Website\Entrance Form CSS.css">
+    <link rel="icon" type="image/png" href="https://www.citchennai.edu.in/favico.png">
+</head>
+<body>
+    <header>
+        <h1>College Entrance Form</h1>
+    </header>
+
+    <form action="submit.php" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="program">Program of Interest:</label>
+        <select id="program" name="program">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Business Administration">Business Administration</option>
+            <option value="Engineering">Engineering</option>
+        </select>
+
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
